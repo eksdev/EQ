@@ -4,7 +4,7 @@ import pandas as pd
 import yfinance as yf
 
 class PortfolioOptimizer:
-    def __init__(self, symbols, period='5y', num_portfolios=20000, simulations=3):
+    def __init__(self, symbols, period='5y', num_portfolios=2000, simulations=2):
         self.symbols = symbols
         self.period = period
         self.num_portfolios = num_portfolios
